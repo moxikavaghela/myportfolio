@@ -22,10 +22,10 @@
   "build-gh": "https://moxikavaghela.github.io/myportfolio",
   
     
-  "predeploy": "npm run built",
+  "predeploy": "npm run build",
   
     
-  "deploy": "gh-pages -d built"
+  "deploy": "gh-pages -d build"
   
   },
   
