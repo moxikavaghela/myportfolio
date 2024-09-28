@@ -3,12 +3,12 @@
   "version": "1.0.0",
   "description": "Educator JS Codespace Template",
   "source": "src/index.html",
-  "homepage": "./",  // Update homepage to relative path for GitHub Pages
+  "homepage": "http://moxikavaghela.github.io/myportfolio",
   "scripts": {
     "start": "parcel",
-    "build": "parcel build --dist-dir build --public-url ./",  // Use relative paths for deployment
-    "predeploy": "npm run build",  // Build the project before deploying
-    "deploy": "gh-pages -d build"  // Deploy the 'build' directory
+    "build": "parcel build --dist-dir build --public-url ./",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "repository": {
     "type": "git",
